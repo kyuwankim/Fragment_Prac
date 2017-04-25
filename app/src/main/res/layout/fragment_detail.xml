@@ -7,6 +7,8 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+
+
     <Button
         android:id="@+id/btnList"
         android:layout_width="wrap_content"
@@ -14,6 +16,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Go List" />
+
+
 
     <TextView
         android:layout_width="wrap_content"

@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     DetailFragment detail;
     FragmentManager manager;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setList();
     }
 
+
+    
     // Activity 에 처음 목록이 세팅될때
     public void setList(){
         // 1. 프래그먼트를 실행하기위한 트랜잭션 시작
