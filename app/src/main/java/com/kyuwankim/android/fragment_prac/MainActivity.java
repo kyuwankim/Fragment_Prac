@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    
     // Activity 에 처음 목록이 세팅될때
     public void setList(){
         // 1. 프래그먼트를 실행하기위한 트랜잭션 시작
@@ -65,12 +64,7 @@ public class MainActivity extends AppCompatActivity {
     public void backToList(){
         // 뒤로가기로 스택을 빼내면 된다 - popBackStack 에 해당하는 함수이다.
         super.onBackPressed();
-//        // 1. 프래그먼트를 실행하기위한 트랜잭션 시작
-//        FragmentTransaction transaction = manager.beginTransaction();
-//        // 2. detail 프래그먼트를 스택에서 제거한다
-//        transaction.remove(detail);
-//        // 3. 커밋
-//        transaction.commit();
+
     }
 
 
