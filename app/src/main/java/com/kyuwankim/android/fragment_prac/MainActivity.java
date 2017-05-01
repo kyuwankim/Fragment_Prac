@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void selectFrag(View view){
         Fragment fr;
 
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         }else {
             fr = new FragmentOne();
         }
-
+//android
         FragmentManager fm = getFragmentManager();
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
         fragmentTransaction.replace(R.id.fragment_place, fr);
